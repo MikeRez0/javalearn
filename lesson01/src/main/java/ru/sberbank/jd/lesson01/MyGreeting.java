@@ -2,9 +2,11 @@ package ru.sberbank.jd.lesson01;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
 
-public class MyGreeting implements Greeting{
+/**
+ * Класс для получения данных студентов для приветствия.
+ */
+public class MyGreeting implements Greeting {
     /**
      * Получение имени.
      */
